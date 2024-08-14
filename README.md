@@ -3,8 +3,8 @@
 ## Overview
 The *make_phylogenie_ggtree.R* script is designed to generate a phylogenetic tree from a list of species names. The script outputs two key items:
 
-##### A phylogenetic tree plot, which can be displayed in either a rectangular or circular layout.
-##### A Newick format file representing the phylogenetic tree structure. 
+#### A phylogenetic tree plot, which can be displayed in either a rectangular or circular layout.
+#### A Newick format file representing the phylogenetic tree structure. 
 This file can be easily used in the **iTOL** (Interactive Tree Of Life) website for visualizing and analyzing phylogenetic trees. The Newick format provides a compact way to represent tree structures using nested parentheses and branch lengths, which is widely supported by various tree visualization tools. You can upload this file to iTOL to customize and explore your tree with features such as different layouts, color schemes, and annotations. 
 
 ## Requirements
