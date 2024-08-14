@@ -105,7 +105,7 @@ ggtree_plot <- ggtree(phylo_tree, branch.length = "branch.length", layout=graph_
 
 
 if (graph_layout == "circular"){
-  ggsave(paste0(output,"/phylogenetic_tree_circular.png"), plot = ggtree_plot , width = 25, height = 15)
+  ggsave(paste0(output,"/phylogenetic_tree_circular.png"), plot = ggtree_plot , width = 25, height = 20)
 }
 
 if (graph_layout == "rectangular"){
