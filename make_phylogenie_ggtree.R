@@ -1,8 +1,8 @@
 
 # Specify your R libraries path here if needed. The R library of the remote server does not contain 
 # taxize and metacoder so I have to use my additional library
-.libPaths(c("/mnt/raidbio/biosoft/software/R/R-4.3.0.mkl/library", 
-            "/mnt/cip/home/b/buit/R/x86_64-pc-linux-gnu-library/4.3"))
+# .libPaths(c("/mnt/raidbio/biosoft/software/R/R-4.3.0.mkl/library", 
+#            "/mnt/cip/home/b/buit/R/x86_64-pc-linux-gnu-library/4.3"))
 
 library(ggtree)
 library(taxize)
